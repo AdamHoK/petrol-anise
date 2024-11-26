@@ -1,0 +1,27 @@
+@import './base.css';
+
+#app {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+  position: relative;
+  z-index: 1;
+  pointer-events: none;
+  display: grid;
+  grid-template-rows: 1fr 9fr;
+  background: rgba(247, 218, 116, .5);
+}
+
+a {
+  text-decoration: none;
+  transition: 0.4s;
+  padding: 3px;
+}
+
+a, p, h1, h2, h3 {
+  pointer-events: all;
+}
+
+@media (min-width: 1024px) {
+}

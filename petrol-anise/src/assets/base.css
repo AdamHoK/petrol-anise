@@ -1,4 +1,41 @@
 /* color palette from <https://github.com/vuejs/theme> */
+
+@font-face {
+  font-family: "Big Caslon"; /*eg Ubuntu*/
+  src: url("./fonts/big-caslon-regular.ttf");
+}
+
+@font-face {
+  font-family: "Garamondt"; /*eg Ubuntu*/
+  src: url("./fonts/Garamondt-Regular.otf");
+}
+
+@font-face {
+  font-family: "Credible"; /*eg Ubuntu*/
+  src: url("./fonts/Credible-Regular.woff");
+}
+
+@font-face {
+  font-family: "Hedvig"; /*eg Ubuntu*/
+  src: url("./fonts/HedvigLettersSerif-Regular.otf");
+}
+
+.dss-credible {
+  font-family: "Credible"
+}
+
+.dss-garamondt {
+  font-family: "Garamondt"
+}
+
+.dss-bigcaslon {
+  font-family: "Big Caslon"
+}
+
+.dss-hedvig {
+  font-family: "Hedvig";
+}
+
 :root {
   --vt-c-white: #ffffff;
   --vt-c-white-soft: #f8f8f8;
@@ -23,7 +60,7 @@
 
 /* semantic color variables for this project */
 :root {
-  --color-background: var(--vt-c-white);
+  --color-background: #fcecbc;
   --color-background-soft: var(--vt-c-white-soft);
   --color-background-mute: var(--vt-c-white-mute);
 
@@ -38,7 +75,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-background: var(--vt-c-black);
+    --color-background: #fcecbc;
     --color-background-soft: var(--vt-c-black-soft);
     --color-background-mute: var(--vt-c-black-mute);
 
@@ -67,7 +104,7 @@ body {
     color 0.5s,
     background-color 0.5s;
   line-height: 1.6;
-  font-family: Georgia, 'Times New Roman', Times, serif, -apple-system, sans-serif;
+  font-family: Hedvig, Georgia, 'Times New Roman', Times, serif, -apple-system, sans-serif;
   font-size: 15px;
   letter-spacing: -.25pt;
   text-rendering: optimizeLegibility;

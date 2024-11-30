@@ -24,7 +24,7 @@ function changeFont(){
 
 onMounted(() =>{
   watch(route, (to) => {
-    console.log(to)
+    changeFont()
   }, {flush: 'pre', immediate: true, deep: true})
 })
 

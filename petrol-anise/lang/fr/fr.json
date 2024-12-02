@@ -19,11 +19,11 @@
   },
   "submissions" : {
     "guidelines" : {
-      "one" :"Envoyé.e vos soumissions comprenant jusqu'à 3 nouvelles à",
-      "two" :"Joigniez vos nouvelles en format PDF, avec un fichier par nouvelle",
-      "three" :"Clarifiez toute information additionelles et pertinente à la soumissions dans le l'email",
-      "four" :"Indiquez votre nom complet et le mode de contact préféré dans le corps l'email"
+      "one" :"Envoyez vos soumissions comprenant jusqu'à 3 nouvelles à",
+      "two" :"Envoyez vos nouvelles en format PDF, avec un fichier par nouvelle.",
+      "three" :"Ajoutez toute information pertinente concernant votre travail dans le corps du courriel.",
+      "four" :"Indiquez votre nom complet et votre moyen de contact préféré dans le corps du courriel."
     },
-    "if_selected" : "Si votre nouvelle est sélectionné.e, elle sera la seule publiée en ligne et imprimée dans une de nos éditions bimensuelles."
+    "if_selected" : "Si votre nouvelle est sélectionnée, elle sera la seule publiée en ligne et imprimée dans une de nos éditions bimensuelles."
   }
 }

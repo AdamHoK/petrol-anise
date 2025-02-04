@@ -3,7 +3,8 @@
   "nav" : {
     "home" : "À Propos",
     "submission_guide" : "Guide De Soumission",
-    "contact" : "Contact"
+    "contact" : "Contact",
+    "event" : "Evènement"
   },
   "contact": {
     "email" : "e-mail",
@@ -15,7 +16,8 @@
     "about" : "À Propos",
     "main_text" : "Pastiche est une revue de nouvelles littéraires, publiée en ligne et imprimée. \n\nNous cherchons des textes de fiction littéraire de 3000 mots maximum, sans contrainte de thème. \n\nNous cherchons des textes audacieux, insolents, fougueux.\n\n Des textes qui posent des questions et tentent d’y répondre. \n\nNous sortirons toutes les deux semaines une publication en ligne et imprimée, et continuerons à accepter des soumissions en continu. \n\nChaque publication mettra en lumière une seule nouvelle.\n\nLes écrivain·es sélectionné·es recevront un honoraire d’un montant de 100 CAD par nouvelle acceptée.\n\n",
     "inquiries" : "Pour toute question, veuillez nous contacter sur",
-    "orto" : "ou par courrier: "
+    "orto" : "ou par courrier: ",
+    "event" : "Evènement"
   },
   "submissions" : {
     "guidelines" : {

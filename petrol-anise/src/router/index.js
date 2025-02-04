@@ -10,19 +10,20 @@ const router = createRouter({
       component: HomeView
     },
     {
+      path: '/event',
+      name: 'event',
+      beforeEnter() {
+        window.location.href = "https://www.zeffy.com/en-CA/ticketing/pastiche-inaugural-event";
+      },
+    },
+    {
       path: '/guide',
       name: 'guide',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
       component: () => import('../views/SubmissionGuide.vue')
     },
     {
       path: '/contact',
       name: 'contact',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
       component: () => import('../views/Contact.vue')
     }
   ]

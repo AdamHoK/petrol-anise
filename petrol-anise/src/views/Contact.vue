@@ -4,7 +4,6 @@ const { t } = useI18n();
 
 const email = "pastichepublication@gmail.com";
 const instagram = "@pastiche.pastiche";
-const phoneNumber = "(438)-7PA-STIJ";
 
 </script>
 
@@ -15,7 +14,6 @@ const phoneNumber = "(438)-7PA-STIJ";
     <ul>
       <li>{{t('contact.email')}} - {{ email }}</li>
       <li>{{t('contact.instagram')}} - <a :href="t('contact.instagram_link')" >{{ instagram }}</a></li>
-      <li>{{t('contact.phone')}} - {{ phoneNumber }}</li>
     </ul>
   </div>
 </template>

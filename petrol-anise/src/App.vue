@@ -14,8 +14,8 @@ const {t} = useI18n();
     <div class="wrapper">
     <HelloWorld msg="Pastiche" />
       <nav>
-        <a href="https://www.zeffy.com/ticketing/pastiche-inaugural-event">{{ t('nav.event') }}</a>
         <RouterLink to="/">{{ t('nav.home') }}</RouterLink>
+        <RouterLink to="/current">{{ t('nav.current') }}</RouterLink>
         <RouterLink to="/guide">{{ t('nav.submission_guide') }}</RouterLink>
         <RouterLink to="/contact">{{ t('nav.contact') }}</RouterLink>
         <LanguageSwitcher></LanguageSwitcher>

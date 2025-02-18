@@ -10,11 +10,9 @@ const router = createRouter({
       component: HomeView
     },
     {
-      path: '/event',
-      name: 'event',
-      beforeEnter() {
-        window.location.href = "https://www.zeffy.com/en-CA/ticketing/pastiche-inaugural-event";
-      },
+      path: '/current',
+      name: 'Current',
+      component: () => import('../views/current.vue')
     },
     {
       path: '/guide',

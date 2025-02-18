@@ -4,7 +4,8 @@
     "home" : "About",
     "submission_guide" : "Submission Guide",
     "contact" : "Contact",
-    "event" : "Event"
+    "event" : "Event",
+    "current" : "Current Edition"
   },
   "contact": {
     "email" : "e-mail",

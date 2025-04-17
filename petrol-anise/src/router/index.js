@@ -23,7 +23,14 @@ const router = createRouter({
       path: '/contact',
       name: 'contact',
       component: () => import('../views/Contact.vue')
-    }
+    },
+    {
+      path: '/event',
+      name: 'event',
+      beforeEnter() {
+        window.location.href = "https://www.zeffy.com/en-CA/ticketing/pastiche-edition--2";
+      },
+    },
   ]
 })
 
